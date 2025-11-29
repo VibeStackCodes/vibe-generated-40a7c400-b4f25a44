@@ -1,0 +1,13 @@
+{
+  "projectId": "40a7c400-7090-4659-847d-5068660bbd96",
+  "webhookUrl": "https://spotty-colts-invent.loca.lt/api/claude-code/progress",
+  "hooks": {
+    "enabled": true,
+    "events": [
+      "SessionStart",
+      "SessionEnd",
+      "PreToolUse",
+      "PostToolUse"
+    ]
+  }
+}
